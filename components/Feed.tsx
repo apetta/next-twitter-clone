@@ -23,7 +23,7 @@ function Feed({ tweets: tweetsProp }: Props) {
   }
 
   return (
-    <div className="col-span-7 max-h-screen overflow-y-scroll border-x scrollbar-hide lg:col-span-5">
+    <div className="col-span-8 max-h-screen overflow-y-scroll border-x scrollbar-hide md:col-span-7 lg:col-span-5">
       <div className="sticky top-0 z-50 flex items-center justify-between bg-white bg-opacity-90 pt-3 pb-3">
         <h1 className="items-center pl-5 pb-0 text-center text-xl font-bold">
           Home
