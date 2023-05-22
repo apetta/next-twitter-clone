@@ -16,7 +16,7 @@ function Sidebar() {
   const { data: session } = useSession()
 
   return (
-    <div className="col-span-1 flex min-h-screen flex-col items-center px-4 md:col-span-2 md:items-start">
+    <div className="col-span-2 flex min-h-screen flex-col items-center px-4 md:col-span-2 md:items-start">
       <div className="relative m-3 h-7 w-7 sm:h-10 sm:w-10">
         <Image alt="" layout="fill" src="/twitter-logo.svg" />
       </div>
