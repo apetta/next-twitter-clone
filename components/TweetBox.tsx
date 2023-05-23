@@ -74,7 +74,7 @@ function TweetBox({ setTweets }: Props) {
   }
 
   return (
-    <form className="flex flex-col space-x-2 p-5">
+    <form className="flex flex-col space-y-2 p-2">
       <div className="flex space-x-4">
         <div className="relative mt-6 h-14 w-14 flex-shrink-0">
           <Image
@@ -95,9 +95,7 @@ function TweetBox({ setTweets }: Props) {
 
       <div className="flex flex-1 items-center">
         <div className="flex flex-1 flex-col">
-        
-
-          <div className="flex items-center">
+          <div className="flex flex-1 items-center">
             <div className="flex flex-1 space-x-2 text-twitter-blue">
               <PhotographIcon
                 onClick={() => setImageUrlBoxOpen(!imageUrlBoxOpen)}
@@ -119,7 +117,7 @@ function TweetBox({ setTweets }: Props) {
           </div>
 
           {imageUrlBoxOpen && (
-            <form className="mt-5 flex rounded-lg bg-twitter-blue/70 py-2 px-4">
+            <form className="mt-5 flex rounded-lg bg-twitter-blue/70 py-2 px-2">
               <input
                 ref={imageUrlRef}
                 className="flex-1 bg-transparent text-white outline-none placeholder:text-white"
