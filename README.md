@@ -8,6 +8,7 @@ The primary technologies used in this project are:
 
 - **Next.js**: A modern framework for building server-side rendered React applications.
 - **React.js**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
 - **Next-Auth**: A complete open-source authentication solution for Next.js applications.
 - **Next-Sanity**: A set of tools that helps you preview and fetch content from Sanity.io in your Next.js frontend.
 - **React Twitter Embed**: A simple and complete Twitter Embed Component for React.
